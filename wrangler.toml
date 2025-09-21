@@ -10,10 +10,10 @@ vars = { ENVIRONMENT = "staging" }
 
 [[kv_namespaces]]
 binding = "USER_PROXY_KV"
-id = "your-user-proxy-kv-namespace-id" # Replace with your KV namespace ID
+id = "2c95adbef02644ce878598ee3f59cb06" # Replace with your KV namespace ID
 
 [env.production.kv_namespaces]
-USER_PROXY_KV = { id = "your-user-proxy-kv-namespace-id" }
+USER_PROXY_KV = { id = "2c95adbef02644ce878598ee3f59cb06" }
 
 [env.staging.kv_namespaces]
-USER_PROXY_KV = { id = "your-staging-user-proxy-kv-namespace-id" }
+USER_PROXY_KV = { id = "2c95adbef02644ce878598ee3f59cb06" }
